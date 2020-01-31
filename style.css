@@ -14,9 +14,9 @@ Alhena Lite is distributed under the terms of the GNU GPL
 
 */
 
-
-body {
-    font-family: Arial, sans-serif;
+body
+{
+    font-family: Sans-serif;
     font-size: 14px;
     color: #333;
 }
@@ -26,12 +26,11 @@ a:visited {
     color: #006ec3;
 }
 
-
 p {
     line-height: 1.65em;
 }
 
-/* Overall layout */
+/* General Layout */
 div.container {
     max-width: 920px;
     margin: 0 auto;

@@ -15,4 +15,10 @@
         <header class="site-header">
             <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
             <h5><?php bloginfo('description'); ?></h5>
+
         </header><!-- /site-header -->
+
+            <form method="get" action="<?php print site_url(); ?>">
+              <input type-"text" name="s" value="<?php if(isset($_GET['s'])){print $_GET['s'];}?>">
+              <input type="submit" value="Search for our site ....">
+            </form>
