@@ -155,3 +155,8 @@ article.page h2 {
 	font-size: 225%;
 	margin-bottom: 15px;
 }
+
+/* Search */
+div.search {
+	float: right;
+}

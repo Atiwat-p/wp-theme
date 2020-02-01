@@ -17,8 +17,11 @@
       <h5><?php bloginfo('description'); ?></h5>
 
     </header><!-- /site-header -->
+        <!-- search -->
+        <div class="search">
 
         <form method="get" action="<?php print site_url(); ?>">
           <input type-"text" name="s" value="<?php if(isset($_GET['s'])){print $_GET['s'];}?>">
           <input type="submit" value="Search for our site ....">
         </form>
+      </div><!-- /search -->
