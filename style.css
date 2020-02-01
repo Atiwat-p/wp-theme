@@ -51,8 +51,33 @@ article.post:last-of-type {
     border-bottom: 2px solid #999;
 }
 
+/* Navigation Menus */
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav ul::before, .site-nav ul::after { content: ""; display: table; }
+.site-nav ul::after { clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav ul {
+    list-style: none;
+    float: left;
+}
+
 /* Footer */
 .site-footer {
     margin-top: 28px;
     border-top: 2px solid #999;
+}
+
+/* site Footer Menu */
+.site-footer nav ul li {
+    margin-right: 5px;
+
+    display: block;
+    padding: 10px 18px;
+    border: 1px solid #BBB;
+
 }
