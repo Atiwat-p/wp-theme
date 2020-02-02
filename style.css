@@ -149,3 +149,15 @@ p.post-info a:visited {
 		color: #999;
 
 }
+
+/* Column Title Layout */
+div.text-column {
+	width: 70%;
+	float: right;
+}
+
+/* Image Styles */
+img {
+		max-width: 80%;
+		height: auto;
+}

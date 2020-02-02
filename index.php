@@ -29,7 +29,8 @@ if (have_posts()) :
            </p>
 
         <p>
-        <?php the_content('Continue reading &raquo'); ?>
+        <?php the_post_thumbnail('small-thumbnail'); ?>
+        <?php the_content('Continue reading &raquo;'); ?>
         <a href="<?php the_permalink(); ?>"</a>
         </p>
     </article>
