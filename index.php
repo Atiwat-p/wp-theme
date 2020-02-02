@@ -28,8 +28,10 @@ if (have_posts()) :
              ?>
            </p>
 
-
-        <?php the_content(); ?>
+        <p>
+        <?php the_content('Continue reading &raquo'); ?>
+        <a href="<?php the_permalink(); ?>"</a>
+        </p>
     </article>
 
     <?php endwhile;
