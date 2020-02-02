@@ -7,6 +7,12 @@ if (have_posts()) :
     while (have_posts()) : the_post(); ?>
 
     <article class="post">
+        
+        <! -- post-thumbnail -->
+        <div class="post-thumbnail">
+            <?php the_post_thumbnail('small-thumbnail'); ?>
+        </div><! -- /post-thumbnail -->
+        
         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
         <p class="post-info"><?php the_time('F jS, Y'); ?> | By <a href="<?php echo get_author_posts_url('http://localhost/webone/index.php/about-us/'); ?>"><?php the_author(); ?></a> | Posted in
@@ -29,7 +35,7 @@ if (have_posts()) :
            </p>
 
         <p>
-        <?php the_post_thumbnail('small-thumbnail'); ?>
+        
         <?php the_content('Continue reading &raquo;'); ?>
         <a href="<?php the_permalink(); ?>"</a>
         </p>
