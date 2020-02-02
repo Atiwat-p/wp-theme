@@ -161,3 +161,14 @@ img {
 		max-width: 80%;
 		height: auto;
 }
+
+.has-thumbnail {
+		position: relative;
+		padding-left: 200px;
+}
+
+.post-thumbnail {
+		position: absolute;
+		top: 0;
+		left: 0;
+}
